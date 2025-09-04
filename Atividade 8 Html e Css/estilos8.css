@@ -1,0 +1,20 @@
+.secao {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.secao1 {
+  background-color: #fff8b0; /* amarelo claro */
+}
+
+.secao2 {
+  background-color: #add8e6; /* azul claro */
+}
+
+.secao3 {
+  background-color: #c1f0c1; /* verde claro */
+}
