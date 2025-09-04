@@ -1,0 +1,17 @@
+.tabela-estilizada {
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.tabela-estilizada th,
+.tabela-estilizada td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabela-estilizada thead {
+  background-color: #add8e6; /* azul-claro */
+}
