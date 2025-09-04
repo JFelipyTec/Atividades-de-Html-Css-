@@ -1,0 +1,28 @@
+/* Layout Flexbox */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Ajuste de largura das imagens */
+.galeria img {
+  width: calc(33.333% - 20px);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .galeria img {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria img {
+    width: 100%;
+  }
+}
